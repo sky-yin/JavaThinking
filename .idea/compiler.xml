@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JavaThinking" />
+        <module name="kafka-demo" />
+        <module name="netty-design" />
+        <module name="WeSync" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Design_pattern" target="1.8" />
+      <module name="JavaThinking" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
+      <module name="lottery-core" target="1.8" />
+      <module name="lottery-mgr" target="1.8" />
+      <module name="netty-design" target="1.8" />
+      <module name="WeSync" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

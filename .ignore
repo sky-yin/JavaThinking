@@ -1,0 +1,13 @@
+target
+*.zsh
+*.iml
+.rebel.xml.bak
+doc
+.gitlab
+.idea/
+.project
+.classpath
+src/test
+.settings/
+/bin/
+

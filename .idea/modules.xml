@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaThinking.iml" filepath="$PROJECT_DIR$/JavaThinking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../person/WeSync/WeSync.iml" filepath="$PROJECT_DIR$/../person/WeSync/WeSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/../kafka-demo/kafka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../person/netty-design/netty-design.iml" filepath="$PROJECT_DIR$/../person/netty-design/netty-design.iml" />
+    </modules>
+  </component>
+</project>
