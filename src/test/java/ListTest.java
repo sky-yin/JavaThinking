@@ -104,4 +104,15 @@ public class ListTest {
         System.out.println(TailInvoke.factorialTailRecursion(1,20).invoke());
     }
 
+
+    @Test
+    public void stringTest(){
+        String s = "hello";
+        s += "word";
+        String m = "helloword";
+        String n = "word";
+        System.out.println(s == m);
+        int[] ss = new int[10];
+    }
+
 }

@@ -1,8 +1,8 @@
+import com.google.common.collect.Multiset;
 import jdk.nashorn.internal.ir.annotations.Immutable;
+import sun.misc.Queue;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.function.Function;
 import java.util.regex.Pattern;
 import java.util.stream.Collector;
@@ -18,16 +18,17 @@ public class Test {
         list.add(new Use("hui",8));
 
         List<Integer> integerList = new ArrayList<>();
+
         integerList.add(1);
         integerList.add(2);
         integerList.add(3);
-        if(integerList.stream().anyMatch(s -> s != 2)){
-            integerList.forEach(a -> System.out.println(a));
-        }
-
-        List<String> s = new ArrayList<>();
-        System.out.println(s.isEmpty()?"1":"2");
-        list.stream().map(Use::getName).filter(x -> !"yi".equals(x)).collect(Collectors.toList()).forEach(e -> System.out.println(e));
+//        if(integerList.stream().anyMatch(s -> s != 2)){
+//            integerList.forEach(a -> System.out.println(a));
+//        }
+//
+//        List<String> s = new ArrayList<>();
+//        System.out.println(s.isEmpty()?"1":"2");
+//        list.stream().map(Use::getName).filter(x -> !"yi".equals(x)).collect(Collectors.toList()).forEach(e -> System.out.println(e));
 
     /**
         //map应用到每一个元素上   映射
@@ -50,7 +51,6 @@ public class Test {
 
     @org.junit.Test
     public void test(){
-
     }
 
     public boolean testing(String s,String p){

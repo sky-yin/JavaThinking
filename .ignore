@@ -1,10 +1,12 @@
 target
+target/*
 *.zsh
 *.iml
 .rebel.xml.bak
 doc
 .gitlab
-.idea/
+.idea
+.idea/*
 .project
 .classpath
 src/test

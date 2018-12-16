@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaThinking.iml" filepath="$PROJECT_DIR$/JavaThinking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../person/mundaneWorld/Mundane.iml" filepath="$PROJECT_DIR$/../person/mundaneWorld/Mundane.iml" />
       <module fileurl="file://$PROJECT_DIR$/../person/WeSync/WeSync.iml" filepath="$PROJECT_DIR$/../person/WeSync/WeSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../https-spring-boot/https-spring-boot.iml" filepath="$PROJECT_DIR$/../https-spring-boot/https-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/../kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/../kafka-demo/kafka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../person/netty-design/netty-design.iml" filepath="$PROJECT_DIR$/../person/netty-design/netty-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../person/spring_code/spring_code.iml" filepath="$PROJECT_DIR$/../person/spring_code/spring_code.iml" />
     </modules>
   </component>
 </project>
