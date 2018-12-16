@@ -7,6 +7,7 @@ doc
 .gitlab
 .idea
 .idea/*
+.idea/**
 .project
 .classpath
 src/test
